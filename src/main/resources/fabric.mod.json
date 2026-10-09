@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "comboinfo",
+  "version": "1.1.0",
+  "name": "ComboInfo",
+  "description": "Passive melee timing HUD for hit-stun PvP (built around GTM's 12-tick rule): shows who is combo'ing you and for how long, when you can hit back, your own combo streak and when your next hit is allowed, and logs everything to a CSV for study. Display-only; never automates input.",
+  "authors": ["you"],
+  "contact": {},
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.comboinfo.ComboInfoClient"] },
+  "depends": { "fabricloader": ">=0.14.21", "minecraft": "~1.19.4", "fabric-api": "*", "java": ">=17" }
+}
